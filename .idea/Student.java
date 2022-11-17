@@ -8,4 +8,7 @@ public class Student{
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    public static String yea(){
+        System.out.println(firstName + lastName + grade);
+    }
 }
